@@ -6,6 +6,9 @@ class Car {
     start(){
         alert('Engine started:'+ this.engine);
     }
+    run(){
+        alert('Car '+this.engine+' run 5 km.');
+    }
     stop(){
         alert('Engine stopped:'+ this.engine);
     }

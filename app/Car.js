@@ -5,6 +5,9 @@ var Car = (function () {
     Car.prototype.start = function () {
         alert('Engine started:' + this.engine);
     };
+    Car.prototype.run = function () {
+        alert('Car ' + this.engine + ' run 5 km.');
+    };
     Car.prototype.stop = function () {
         alert('Engine stopped:' + this.engine);
     };
