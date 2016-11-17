@@ -16,5 +16,6 @@ var Car = (function () {
 window.onload = function () {
     var car = new Car('V8');
     car.start();
+    car.run();
     car.stop();
 };
