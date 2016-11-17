@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "outDir": "app/"
+    },
+    "exclude": [
+        "gulpfile.ts",
+        "node_modules",
+        "typings"
+    ]
+}
