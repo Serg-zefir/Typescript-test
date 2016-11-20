@@ -1,14 +1,14 @@
 class Engine{
     constructor(public horsePower: number, public engineType: string){}
 }
-class Car {
+class CarAuto {
     private _engine: Engine;
     constructor(engine: Engine){}
     get engine(): Engine{
         return this._engine;
     }
     set engine(value: Engine){
-        if (value == undefined) throw 'Please supply an engine';
+        if (value === undefined) throw 'Please supply an engine';
         this._engine = value;
     }
     start(){

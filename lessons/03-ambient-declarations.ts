@@ -1,4 +1,4 @@
-/// <reference path="typings/knockout.d.ts"/>
+/// <reference path="../typings/knockout.d.ts"/>
 declare var ko: KnockoutStatic;
 
 module demo_03 {

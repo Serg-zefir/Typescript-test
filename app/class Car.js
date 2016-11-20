@@ -5,23 +5,23 @@ var Engine = (function () {
     }
     return Engine;
 }());
-var Car = (function () {
-    function Car(engine) {
+var CarAuto = (function () {
+    function CarAuto(engine) {
     }
-    Object.defineProperty(Car.prototype, "engine", {
+    Object.defineProperty(CarAuto.prototype, "engine", {
         get: function () {
             return this._engine;
         },
         set: function (value) {
-            if (value == undefined)
+            if (value === undefined)
                 throw 'Please supply an engine';
             this._engine = value;
         },
         enumerable: true,
         configurable: true
     });
-    Car.prototype.start = function () {
+    CarAuto.prototype.start = function () {
         alert('Car engine started ' + this._engine.engineType);
     };
-    return Car;
+    return CarAuto;
 }());

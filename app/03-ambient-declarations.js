@@ -1,4 +1,4 @@
-/// <reference path="typings/knockout.d.ts"/>
+/// <reference path="../typings/knockout.d.ts"/>
 var demo_03;
 (function (demo_03) {
     var name = ko.observable('Serg');

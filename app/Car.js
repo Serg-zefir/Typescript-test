@@ -14,8 +14,8 @@ var Car = (function () {
     return Car;
 }());
 window.onload = function () {
-    var car = new Car('V8');
-    car.start();
-    car.run();
-    car.stop();
+    var car1 = new Car('V8');
+    car1.start();
+    car1.run();
+    car1.stop();
 };

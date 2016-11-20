@@ -14,10 +14,10 @@ class Calculator {
     }
     wireEvents(){
         document.getElementById('Add').addEventListener('click', event => {
-            this.output.innerHTML = this.add(parseInt(this.x.value), parseInt(this.y.value)).toString()
+            this.output.innerHTML = this.add(parseInt(this.x.value), parseInt(this.y.value)).toString();
         });
         document.getElementById('Subtact').addEventListener('click', event => {
-            this.output.innerHTML = this.subtract(parseInt(this.x.value), parseInt(this.y.value)).toString()
+            this.output.innerHTML = this.subtract(parseInt(this.x.value), parseInt(this.y.value)).toString();
         });
     }
     add(x: number, y: number){
